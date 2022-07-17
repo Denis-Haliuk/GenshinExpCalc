@@ -9,4 +9,6 @@ module com.haliuk.genshinexpcalc {
 
     opens com.haliuk.genshinexpcalc to javafx.fxml;
     exports com.haliuk.genshinexpcalc;
+    exports com.haliuk.genshinexpcalc.helper;
+    opens com.haliuk.genshinexpcalc.helper to javafx.fxml;
 }
